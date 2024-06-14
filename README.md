@@ -1,7 +1,12 @@
 
-# MaskTune Models
+# MaskTune: Mitigating Spurious Correlations by Forcing to Explore
+## ABSTRACT: 
+This article examines techniques for mitigating deceptive patterns in deep learning models, drawing inspiration from a novel approach known as MaskTune. MaskTune is a novel solution to tackle the problem of models having an excessive number of parameters in comparison to the available training data. It aids the models in acquiring significant patterns without excessively fitting into insignificant details. MaskTune employs a masking technique to mitigate the model's over-reliance on a limited number of characteristics. By concealing certain characteristics, the model is compelled to uncover new ones. This masking process is implemented in a singular fine-tuning phase, which is a crucial step in adjusting a pre-trained model to a different task or dataset. This methodology reduces both time and computational resources required while enhancing task performance in comparison to training a novel model from the beginning. In addition, a job of selective categorization was developed, using MaskTune's capability to promote resilient learning that is less reliant on deceptive characteristics. This enables the model to identify the absence or concealment of crucial characteristics and prevent generating incorrect forecasts. To assess the efficacy of MaskTune in this job of selective categorization, precise metrics were used to measure the accuracy of predictions made by the model and its capacity to abstain from making choices when there was insufficient information for dependable predictions.
 
-This repository contains code for training and evaluating various neural network models on the CIFAR-10 and CelebA datasets. Follow the steps below to use the code.
+## Purpose:
+This repository hosts the code developed for the Neural Networks exam project. The objective, based on revising the solution proposed in the seminal paper titled MaskTune: Mitigating Spurious Correlations by Forcing to Explore, was to investigate and implement techniques aimed at minimizing the impact of spurious correlations in deep learning architectures."
+
+The repository contains code for training and evaluating various neural network models on the CIFAR-10 and CelebA datasets. Follow the steps below to use the code.
 
 ## How to Use the Code
 
